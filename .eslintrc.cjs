@@ -4,17 +4,26 @@ module.exports = {
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended-type-checked',
+        'plugin:react/recommended',
+        "plugin:react/jsx-runtime",
         'plugin:react-hooks/recommended',
         'plugin:prettier/recommended',
     ],
+    settings: {
+        react: {
+            version: 'detect'
+        }
+    },
     ignorePatterns: ['dist', '.eslintrc.cjs'],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         EXPERIMENTAL_useProjectService: true,
         tsconfigRootDir: __dirname,
-
+        ecmaFeatures: {
+            jsx: true
+        }
     },
-    plugins: ['react-refresh'],
+    plugins: ['react', 'react-refresh'],
     rules: {
         'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
 
