@@ -16,21 +16,21 @@ export const App = () => {
         <a href="https://vitejs.dev/">
           <img
             src={viteLogo}
-            className="h-[9em] will-change-[filter] transition-[filter,transform] duration-[300ms] hover:drop-shadow-[0_0_2em_#646cffaa] scale-100 hover:scale-105"
+            className="h-[9em] transition-[filter,scale] duration-[300ms] hover:drop-shadow-[0_0_2em_#646cffaa] scale-100 hover:scale-105"
             alt="Vite logo"
           />
         </a>
         <a href="https://react.dev/">
           <img
             src={reactLogo}
-            className="h-[9em] will-change-[filter] transition-[filter,transform] duration-[300ms] hover:drop-shadow-[0_0_2em_#61dafbaa] scale-100 hover:scale-105"
+            className="h-[9em] transition-[filter,scale] duration-[300ms] hover:drop-shadow-[0_0_2em_#61dafbaa] scale-100 hover:scale-105"
             alt="React logo"
           />
         </a>
         <a href="https://www.typescriptlang.org/">
           <img
             src={typescriptLogo}
-            className="h-[9em] will-change-[filter] transition-[filter,transform] duration-[300ms] hover:drop-shadow-[0_0_2em_#2d79c7aa] scale-100 hover:scale-105"
+            className="h-[9em] transition-[filter,scale] duration-[300ms] hover:drop-shadow-[0_0_2em_#2d79c7aa] scale-100 hover:scale-105"
             alt="TypeScript logo"
           />
         </a>
@@ -39,21 +39,21 @@ export const App = () => {
         <a href="https://typescript-eslint.io/">
           <img
             src={typescripteslintLogo}
-            className="h-[9em] will-change-[filter] transition-[filter,transform] duration-[300ms] hover:drop-shadow-[0_0_2em_#374fbeaa] scale-100 hover:scale-105"
+            className="h-[9em] transition-[filter,scale] duration-[300ms] hover:drop-shadow-[0_0_2em_#374fbeaa] scale-100 hover:scale-105"
             alt="TypeScript-ESlint logo"
           />
         </a>
         <a href="https://tailwindcss.com/">
           <img
             src={tailwindLogo}
-            className="px-16 h-[7em] will-change-[filter] transition-[filter,transform] duration-[300ms] hover:drop-shadow-[0_0_2em_#35bef8aa] scale-100 hover:scale-105"
+            className="px-16 h-[7em] transition-[filter,scale] duration-[300ms] hover:drop-shadow-[0_0_2em_#35bef8aa] scale-100 hover:scale-105"
             alt="tailwindcss logo"
           />
         </a>
         <a href="https://prettier.io/">
           <img
             src={prettierLogo}
-            className="h-[9em] will-change-[filter] transition-[filter,transform] duration-[300ms] hover:drop-shadow-[0_0_2em_#56b3b4aa] scale-100 hover:scale-105"
+            className="h-[9em] transition-[filter,scale] duration-[300ms] hover:drop-shadow-[0_0_2em_#56b3b4aa] scale-100 hover:scale-105"
             alt="prettier logo"
           />
         </a>
