@@ -10,8 +10,8 @@ export const App = () => {
     <div className="font-open-sans bg-[#242424] min-h-screen min-w-screen py-16 flex flex-col justify-center items-center gap-10">
       <div className="flex flex-col items-center gap-16 min-[1543px]:flex-row">
         <div className="flex flex-col gap-10 items-center min-[1543px]:hidden">
-          <h1 className="text-center text-[3.2em] leading-[1.1] font-bold text-white">Simple Vite template.</h1>
-          <p className="text-[#888]">Click the logos to learn more</p>
+          <h1 className="text-center text-[3.2em] leading-[1.1] font-bold text-white">simple vite template.</h1>
+          <p className="text-[#888] italic">Click the logos to learn more</p>
         </div>
         <a href="https://vitejs.dev/">
           <img
