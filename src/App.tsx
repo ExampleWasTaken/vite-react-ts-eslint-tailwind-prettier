@@ -7,7 +7,7 @@ import prettierLogo from '/prettier.png';
 
 export const App = () => {
   return (
-    <div className="bg-[#242424] min-h-screen min-w-screen py-16 flex flex-col justify-center items-center gap-10">
+    <div className="font-open-sans bg-[#242424] min-h-screen min-w-screen py-16 flex flex-col justify-center items-center gap-10">
       <div className="flex flex-col items-center gap-16 min-[1543px]:flex-row">
         <div className="flex flex-col gap-10 items-center min-[1543px]:hidden">
           <h1 className="text-center text-[3.2em] leading-[1.1] font-bold text-white">Simple Vite template.</h1>
@@ -62,7 +62,7 @@ export const App = () => {
         <hr className="w-[90%] border-b border-[#888]" />
         <h1 className="text-[3.2em] leading-[1.1] font-bold text-white">Vite + React + TypeScript</h1>
         <h2 className="text-[1.5em] leading-[1.1] font-bold text-white">TypeScript-ESLint + tailwindcss + Prettier</h2>
-        <p className="text-[#888]">Click the logos to learn more</p>
+        <p className="text-[#888] italic">Click the logos to learn more</p>
       </div>
       <p className="text-[#c2c2c2]">
         Made with &#x2665;&#xfe0f; by <a href="https://github.com/ExampleWasTakenStudios">ExampleWasTaken</a>
