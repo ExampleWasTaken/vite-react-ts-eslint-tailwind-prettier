@@ -31,7 +31,7 @@ Once installed, there is only one file that contains all placeholder code called
 
 All logos are located in the [public](./public/) folder. There is already a `.gitkeep` file present so you can simply delete all logos without losing the public folder.
 
-Tailwind's reference style sheet called [tailwind.css](./src/tailwind.css) is also located in the src folder. Here you can modify tailwind, your theme, etc.
+Tailwind's reference style sheet - called [tailwind.css](./src/tailwind.css) - is also located in the src folder. Here you can modify tailwind, your theme, etc.
 
 This project uses typescript-eslint's `recommended-type-checked` config plus some additional rules. To configure the project, edit the [eslint.config.js](./eslint.config.js) file.
 
