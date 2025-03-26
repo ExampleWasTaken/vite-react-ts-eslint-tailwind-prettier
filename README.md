@@ -1,8 +1,12 @@
-# Vite + React + TypeScript + tailwind
+# <img src="./public/vite.svg" width=90 /> <img src="./public/typescript.png" width=90 /> <img src="./public/prettier.png" width=90 /> <img src="./public/typescript-eslint.svg" width=90 /> <img src="./public/react.svg" width=90 /> & <img src="./public/tailwindcss.svg" width=500 />
 
-This template provides a minimal setup to get React working in Vite with HMR, tailwind, completete TypeScript-ESLint integration and prettier.
+This template provides a minimal setup to get [React v19](https://react.dev/) working in:
+- [Vite v6](https://vite.dev/) with HMR,
+- [tailwind v4](https://tailwindcss.com/),
+- completete [TypeScript-ESLint v8](https://typescript-eslint.io/) integration
+- and [prettier](https://prettier.io/).
 
-The most important rule is that all formatting is done by Prettier.
+All formatting is done by Prettier.
 
 This template uses [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) ([SWC](https://swc.rs/)) for Fast Refresh.
 
@@ -22,6 +26,12 @@ npm install
 npm run dev
 ```
 
-## ESLint
-This project uses the `recommended-type-checked` config plus some additional rules. To configure the project to your needs, edit the [.eslintrc.cjs](./.eslintrc.cjs) file.
+## Getting Started
+Once installed, there is only one file that contains all placeholder code called [App.tsx](./src/App.tsx).
+
+All logos are in the [public](./public/) folder. For your convenience, there is already a `.gitkeep` file so you can simply delete all logos without losing the public folder.
+
+Tailwinds reference style sheet is also located in the src folder: [tailwind.css](./src/tailwind.css). Here you can modify tailwind, your theme, etc.
+
+This project uses typescript-eslint's `recommended-type-checked` config plus some additional rules. To configure the project, edit the [eslint.config.js](./eslint.config.js) file.
 
