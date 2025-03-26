@@ -3,7 +3,7 @@
 This template provides a minimal setup to get [React v19](https://react.dev/) working in:
 - [Vite v6](https://vite.dev/) with HMR,
 - [tailwind v4](https://tailwindcss.com/),
-- completete [TypeScript-ESLint v8](https://typescript-eslint.io/) integration
+- completete [TypeScript-ESLint v8](https://typescript-eslint.io/) integration,
 - and [prettier](https://prettier.io/).
 
 All formatting is done by Prettier.
